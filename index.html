@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Meu Universo ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Playfair+Display:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button id="somControl" class="som-control" aria-label="Ativar ou desativar som">
+        🔇
+    </button>
+
+    <main>
+
+        <section id="entrada" class="tela ativa tela-entrada">
+
+            <div class="fundo-aurora"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <div class="entrada-conteudo entrada-animacao">
+
+                <span class="eyebrow">
+                    UMA PEQUENA VIAGEM PELO SEU UNIVERSO
+                </span>
+
+                <div class="coracao-area">
+
+                    <button id="botaoEntrada" class="coracao-botao" aria-label="Entrar">
+                        <span class="coracao"></span>
+                    </button>
+
+                    <span class="clique-texto">
+                        CLIQUE AQUI
+                    </span>
+
+                </div>
+
+                <p class="entrada-subtitulo">
+                    Algumas histórias merecem ser descobertas aos poucos.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <section id="inicio" class="tela tela-inicio">
+
+            <div class="fundo-aurora"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <div class="inicio-container entrada-animacao">
+
+                <div class="inicio-texto">
+
+                    <span class="eyebrow">
+                        BEM-VINDA AO SEU UNIVERSO
+                    </span>
+
+                    <h1>
+                        Meu Universo
+                        <span>❤️</span>
+                    </h1>
+
+                    <p class="frase-principal">
+                        Existem pessoas que simplesmente passam pela nossa vida.
+                        E existem aquelas que deixam estrelas por onde passam.
+                    </p>
+
+                    <button class="botao-principal" data-ir="universos">
+                        AINDA TEM MAIS... ✨
+                    </button>
+
+                    <div class="assinatura">
+                        feito especialmente para você
+                    </div>
+
+                </div>
+
+
+                <div class="foto-area">
+
+                    <div class="foto-moldura">
+
+                        <div class="foto-glow"></div>
+
+                        <img src="universo.png" alt="Uma foto especial">
+
+                        <div class="foto-overlay"></div>
+
+                    </div>
+
+                    <span class="foto-legenda">
+                        ✦ existe algo esperando por você
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="universos" class="tela tela-universos">
+
+            <div class="fundo-aurora"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <div class="universos-container entrada-animacao">
+
+                <div class="cabecalho-secao">
+
+                    <span class="eyebrow">
+                        SEIS PEQUENOS UNIVERSOS
+                    </span>
+
+                    <h2>
+                        Coisas que fazem
+                        <span>você ser você.</span>
+                    </h2>
+
+                    <p>
+                        Cada um desses lugares guarda um pedacinho
+                        das coisas que fazem parte do seu mundo.
+                    </p>
+
+                </div>
+
+
+                <div class="universos-grid">
+
+                    <article class="universo-card tema-bts" data-universo="bts">
+                        <img src="bts1.jpg" alt="BTS">
+                        <div class="card-overlay"></div>
+
+                        <div class="card-conteudo">
+                            <span>01</span>
+                            <h3>BTS</h3>
+                            <p>um universo inteiro em músicas</p>
+                        </div>
+
+                        <div class="card-seta">↗</div>
+                    </article>
+
+
+                    <article class="universo-card tema-hello" data-universo="hello">
+                        <img src="hk1.jpg" alt="Hello Kitty">
+                        <div class="card-overlay"></div>
+
+                        <div class="card-conteudo">
+                            <span>02</span>
+                            <h3>Hello Kitty</h3>
+                            <p>um pouco de fofura no caos</p>
+                        </div>
+
+                        <div class="card-seta">↗</div>
+                    </article>
+
+
+                    <article class="universo-card tema-sylvanian" data-universo="sylvanian">
+                        <img src="sf1.jpg" alt="Sylvanian Families">
+                        <div class="card-overlay"></div>
+
+                        <div class="card-conteudo">
+                            <span>03</span>
+                            <h3>Sylvanian Families</h3>
+                            <p>um cantinho delicado</p>
+                        </div>
+
+                        <div class="card-seta">↗</div>
+                    </article>
+
+
+                    <article class="universo-card tema-chorao" data-universo="chorao">
+                        <img src="ch1.jpg" alt="Chorão">
+                        <div class="card-overlay"></div>
+
+                        <div class="card-conteudo">
+                            <span>04</span>
+                            <h3>Chorão</h3>
+                            <p>um pouco de caos e verdade</p>
+                        </div>
+
+                        <div class="card-seta">↗</div>
+                    </article>
+
+
+                    <article class="universo-card tema-pulgar" data-universo="pulgar">
+                        <img src="ep1.jpg" alt="Erick Pulgar">
+                        <div class="card-overlay"></div>
+
+                        <div class="card-conteudo">
+                            <span>05</span>
+                            <h3>Erick Pulgar</h3>
+                            <p>raça, entrega e coração</p>
+                        </div>
+
+                        <div class="card-seta">↗</div>
+                    </article>
+
+
+                    <article class="universo-card tema-michael" data-universo="michael">
+                        <img src="mj1.jpg" alt="Michael Jackson">
+                        <div class="card-overlay"></div>
+
+                        <div class="card-conteudo">
+                            <span>06</span>
+                            <h3>Michael Jackson</h3>
+                            <p>um palco inteiro em movimento</p>
+                        </div>
+
+                        <div class="card-seta">↗</div>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="bts" class="tela tela-universo tema-bts-universo">
+
+            <div class="universo-fundo"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <button class="voltar-universos" data-ir="universos">
+                ← MICRO-UNIVERSOS
+            </button>
+
+            <div class="universo-layout entrada-animacao">
+
+                <div class="montagem">
+                    <img src="bts1.jpg" alt="">
+                    <img src="bts2.jpg" alt="">
+                    <img src="bts3.jpg" alt="">
+                </div>
+
+                <div class="universo-info">
+
+                    <span class="numero-universo">01 / 06</span>
+
+                    <h2>BTS</h2>
+
+                    <div class="linha-decorativa"></div>
+
+                    <p>
+                        Entre tantas músicas, ainda tem uma história que eu escolheria ouvir de novo: a nossa.
+                    </p>
+
+                    <div class="citacao-musical">
+                        <span>“You are the cause of my euphoria.”</span>
+                        <small>EUPHORIA — BTS</small>
+                    </div>
+
+                    <button class="proximo-universo" data-proximo="hello">
+                        PRÓXIMO UNIVERSO
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="hello" class="tela tela-universo tema-hello-universo">
+
+            <div class="universo-fundo"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <button class="voltar-universos" data-ir="universos">
+                ← MICRO-UNIVERSOS
+            </button>
+
+            <div class="universo-layout entrada-animacao">
+
+                <div class="montagem">
+                    <img src="hk1.jpg" alt="">
+                    <img src="hk2.jpg" alt="">
+                    <img src="hk3.jpg" alt="">
+                </div>
+
+                <div class="universo-info">
+
+                    <span class="numero-universo">02 / 06</span>
+
+                    <h2>Hello Kitty</h2>
+
+                    <div class="linha-decorativa"></div>
+
+                    <p>
+                        Meu mundo pode ser uma bagunça, mas você sempre consegue deixá-lo mais bonito.
+                    </p>
+
+                    <div class="citacao-musical">
+                        <span>um pouco de fofura nunca fez mal a ninguém.</span>
+                        <small>HELLO KITTY — SEU PEQUENO UNIVERSO</small>
+                    </div>
+
+                    <button class="proximo-universo" data-proximo="sylvanian">
+                        PRÓXIMO UNIVERSO
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="sylvanian" class="tela tela-universo tema-sylvanian-universo">
+
+            <div class="universo-fundo"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <button class="voltar-universos" data-ir="universos">
+                ← MICRO-UNIVERSOS
+            </button>
+
+            <div class="universo-layout entrada-animacao">
+
+                <div class="montagem">
+                    <img src="sf1.jpg" alt="">
+                    <img src="sf2.jpg" alt="">
+                    <img src="sf3.jpg" alt="">
+                </div>
+
+                <div class="universo-info">
+
+                    <span class="numero-universo">03 / 06</span>
+
+                    <h2>Sylvanian Families</h2>
+
+                    <div class="linha-decorativa"></div>
+
+                    <p>
+                        Se eu pudesse escolher meu cantinho favorito nesse universo, seria qualquer lugar onde você estivesse.
+                    </p>
+
+                    <div class="citacao-musical">
+                        <span>um pequeno lugar, uma grande história.</span>
+                        <small>SYLVANIAN FAMILIES</small>
+                    </div>
+
+                    <button class="proximo-universo" data-proximo="chorao">
+                        PRÓXIMO UNIVERSO
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="chorao" class="tela tela-universo tema-chorao-universo">
+
+            <div class="universo-fundo"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <button class="voltar-universos" data-ir="universos">
+                ← MICRO-UNIVERSOS
+            </button>
+
+            <div class="universo-layout entrada-animacao">
+
+                <div class="montagem">
+                    <img src="ch1.jpg" alt="">
+                    <img src="ch2.jpg" alt="">
+                    <img src="ch3.jpg" alt="">
+                </div>
+
+                <div class="universo-info">
+
+                    <span class="numero-universo">04 / 06</span>
+
+                    <h2>Chorão</h2>
+
+                    <div class="linha-decorativa"></div>
+
+                    <p>
+                        No meio desse mundo tão louco, você ainda é uma das coisas que fazem tudo ter sentido.
+                    </p>
+
+                    <div class="citacao-musical">
+                        <span>“Menina linda, eu quero morar na sua rua.”</span>
+                        <small>PROIBIDA PRA MIM — CHARLIE BROWN JR.</small>
+                    </div>
+
+                    <button class="proximo-universo" data-proximo="pulgar">
+                        PRÓXIMO UNIVERSO
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="pulgar" class="tela tela-universo tema-pulgar-universo">
+
+            <div class="universo-fundo"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <button class="voltar-universos" data-ir="universos">
+                ← MICRO-UNIVERSOS
+            </button>
+
+            <div class="universo-layout entrada-animacao">
+
+                <div class="montagem">
+                    <img src="ep1.jpg" alt="">
+                    <img src="ep2.jpg" alt="">
+                    <img src="ep3.jpg" alt="">
+                </div>
+
+                <div class="universo-info">
+
+                    <span class="numero-universo">05 / 06</span>
+
+                    <h2>Erick Pulgar</h2>
+
+                    <div class="linha-decorativa"></div>
+
+                    <p>
+                        Te amo como o Pulgar ama o Flamengo: com raça, entrega e até o último minuto.
+                    </p>
+
+                    <div class="citacao-musical">
+                        <span>com raça, entrega e coração.</span>
+                        <small>ATÉ O ÚLTIMO MINUTO</small>
+                    </div>
+
+                    <button class="proximo-universo" data-proximo="michael">
+                        PRÓXIMO UNIVERSO
+                        <span>→</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="michael" class="tela tela-universo tema-michael-universo">
+
+            <div class="universo-fundo"></div>
+            <div class="estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <button class="voltar-universos" data-ir="universos">
+                ← MICRO-UNIVERSOS
+            </button>
+
+            <div class="universo-layout entrada-animacao">
+
+                <div class="montagem">
+                    <img src="mj1.jpg" alt="">
+                    <img src="mj2.jpg" alt="">
+                    <img src="mj3.jpg" alt="">
+                </div>
+
+                <div class="universo-info">
+
+                    <span class="numero-universo">06 / 06</span>
+
+                    <h2>Michael Jackson</h2>
+
+                    <div class="linha-decorativa"></div>
+
+                    <p>
+                        Se eu pudesse parar o tempo em um único momento, escolheria um momento ao seu lado.
+                    </p>
+
+                    <div class="citacao-musical">
+                        <span>“I just can't stop loving you.”</span>
+                        <small>I JUST CAN'T STOP LOVING YOU — MICHAEL JACKSON</small>
+                    </div>
+
+                    <div class="foto-final-area">
+
+                        <span class="foto-final-label">
+                            E AGORA, UMA ÚLTIMA COISA...
+                        </span>
+
+                        <button id="fotoFinalTrigger" class="foto-final-botao">
+
+                            <div class="foto-final-glow"></div>
+
+                            <div class="foto-final-card">
+
+                                <img src="universo.png" alt="Uma foto especial">
+
+                                <div class="foto-final-overlay"></div>
+
+                                <div class="foto-final-texto">
+                                    <span>TOQUE NA FOTO</span>
+                                    <strong>❤️</strong>
+                                </div>
+
+                            </div>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="final" class="tela tela-final">
+
+            <div class="final-aurora"></div>
+            <div class="final-estrelas"></div>
+            <div class="coracoes-flutuantes"></div>
+
+            <div class="final-container">
+
+                <div class="final-topo final-elemento">
+
+                    <span class="eyebrow">
+                        E AGORA, A ÚLTIMA COISA
+                    </span>
+
+                    <div class="final-linha"></div>
+
+                </div>
+
+
+                <div class="final-mensagem">
+
+                    <p class="final-frase final-elemento">
+                        Depois de todas essas estrelas...
+                    </p>
+
+                    <p class="final-frase final-elemento">
+                        ainda existe uma coisa que nenhuma delas consegue explicar.
+                    </p>
+
+                    <p class="final-frase final-elemento destaque-final">
+                        O quanto você é importante para mim.
+                    </p>
+
+                    <div class="final-coracao final-elemento">
+                        ❤️
+                    </div>
+
+                    <p class="final-frase final-elemento">
+                        Eu poderia passar horas falando das coisas que você gosta.
+                    </p>
+
+                    <p class="final-frase final-elemento">
+                        Mas a verdade é que o que mais me encanta nunca foi uma banda, um personagem, um jogador ou uma música.
+                    </p>
+
+                    <p class="final-frase final-elemento destaque-final">
+                        Foi você.
+                    </p>
+
+                    <p class="final-frase final-elemento">
+                        Algumas pessoas passam pela nossa vida.
+                    </p>
+
+                    <p class="final-frase final-elemento">
+                        Outras deixam um universo inteiro dentro dela.
+                    </p>
+
+                    <p class="final-frase final-elemento destaque-final">
+                        E você deixou o seu em mim.
+                    </p>
+
+                </div>
+
+
+                <div class="final-assinatura">
+
+                    <div class="final-amor final-elemento">
+                        EU TE AMO
+                    </div>
+
+                    <div class="final-forever final-elemento">
+                        FOREVER AND A DAY
+                    </div>
+
+                    <div class="final-brilho final-elemento">
+                        ✦
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
